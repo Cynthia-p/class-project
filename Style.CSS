@@ -6,6 +6,7 @@
 img {
     display: block;
     margin: 0 auto;
+    padding-bottom: 10px
 }
 
 #hero {
@@ -17,6 +18,7 @@ img {
 
 #hero-container {
   height: 400px;
+  margin-bottom: 280px
 }
 h1 {
   margin-top: 100px;
@@ -32,7 +34,6 @@ h1 {
   color: White);
   ;
 }
-
 
 
 
@@ -82,10 +83,28 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.material-icons{
+  padding-top: 6px;
+}
 
 
-/*#button {
-position: relative;
-    left: 270px;
-    top: 30px;
-}*/
+
+h3 {
+  font-family: 'Mada', cursive;
+  text-align: center;
+  font-size: 24px;
+}
+h4 {
+  font-family: 'Mada', sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+p {
+  font-family: 'Mada', sans-serif;
+}
+
+.text {
+font-family: 'Mada', sans-serif;
+font-weight: bolder;
+}
